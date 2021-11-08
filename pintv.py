@@ -31,7 +31,7 @@ def playerExit(code):
 def createFilenameArray():
     global cpt
     global matrixArray
-    matrixArray=[0 for i in range(64)]
+    matrixArray=["none" for i in range(64)]
     f = open("data.txt", "r")
     for x in f:
         pintv_log.info("swictch / lamp "+str(x).rstrip())
